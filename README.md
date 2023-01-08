@@ -1,5 +1,7 @@
 git clone https://github.com/dickyjoelsaputra/booklending.git
 <br>
+cd booklending
+<br>
 composer install
 <br>
 cp .env.example .env
