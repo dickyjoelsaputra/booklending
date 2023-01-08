@@ -14,6 +14,8 @@ yes
 <br>
 php artisan db:seed
 <br>
+php artisan storage:link
+<br>
 php artisan serve
 
 
