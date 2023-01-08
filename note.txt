@@ -1,0 +1,27 @@
+php artisan make:model Category -mfsc
+php artisan make:model Book -mfsc
+
+php artisan make:Controller Layout
+
+php artisan make:migration create_book_category_table
+
+php artisan db:seed --class=BookSeeder
+php artisan db:seed --class=CategorySeeder
+
+php artisan storage:link
+
+php artisan make:model Role -mfsc
+php artisan make:migration add_role_id_column_to_users_table
+
+php artisan make:seeder UserSeeder
+php artisan db:seed --class=RoleSeeder
+php artisan db:seed --class=UserSeeder
+
+php artisan make:controller AuthController
+Kernel
+        'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
+RouteServiceProvider
+
+php artisan make:controller UserController
+
+php artisan make:model Transaction -mfsc
