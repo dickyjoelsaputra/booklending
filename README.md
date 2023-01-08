@@ -12,6 +12,8 @@ php artisan migrate
 <br>
 yes
 <br>
-php artisan serve
-<br>
 php artisan db:seed
+<br>
+php artisan serve
+
+
