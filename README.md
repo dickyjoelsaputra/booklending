@@ -10,6 +10,8 @@ php artisan key:generate
 <br>
 php artisan migrate
 <br>
+yes
+<br>
 php artisan serve
 <br>
 php artisan db:seed
