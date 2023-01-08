@@ -1,1 +1,1 @@
-git clone https://github.com/edikurniawan-dev/laravel-stisla.git
+git clone https://github.com/dickyjoelsaputra/booklending.git
